@@ -14,10 +14,10 @@ def main():
         )
     )
 
-    msg = '#今日の積み上げ'\
-            + LF + CHECK_MARK + 'Twitter API使って自動ツイート機能作成'\
-            + LF + CHECK_MARK + '温泉いく'\
-            + LF\
+    msg = '#今日の積み上げ' \
+            + LF + CHECK_MARK + 'Twitter API使って自動ツイート機能作成' \
+            + LF + CHECK_MARK + '温泉いく' \
+            + LF \
             + LF + '#駆け出しエンジニアと繋がりたい'
 
     t.statuses.update(status = msg)
